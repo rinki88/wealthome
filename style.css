@@ -60,7 +60,7 @@ img{
 
 .second-container{
     height: 60%;
-    padding: 5% 7%;
+    padding: 5% 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -413,6 +413,15 @@ video {
     float: none;
     margin-left: 7%;
 }
+
+/*** fifth-container ***/
+    video{
+        margin-left: 5%;
+        border-radius: 3%;
+        height: 220px;
+        width: 300px;
+    }
+    
 
 /*** sixth-container ***/
 .sixth-container {
