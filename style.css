@@ -437,7 +437,7 @@ video {
 
 }
 
-.sixth-container > div {
+.sixth-container > card {
     height: 270px;
     width: 270px;
     margin-bottom: 3%;
@@ -445,12 +445,10 @@ video {
 }
 
     /*** footer ***/
- .footer{
-    height: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 5%;
+ .footer > div{
+    height: 800px;
+    display: block;
+   padding: 3%;
 }
    
 }
