@@ -357,11 +357,6 @@ video {
 /*** mobile responsive ****/
 
 @media (min-width: 400px) and (max-width:600px){
- body{
-     margin:0;
-     height:100vh;
-     width:100%;}
-    
     /**** first-container ****/
     .first-container{
     height: 660px;
@@ -382,10 +377,13 @@ video {
 
 /**** seond-container ****/
 .features{
-       margin: 3%;
-        display: block;
         margin-left: 3%;
-         
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 3%;
+        column-gap: 3%;
+        padding-left: 3%;
 }
 
 .icon{
@@ -435,9 +433,14 @@ video {
     
 /*** sixth-container ***/
 .sixth-container {
-    display: block;
-    height: 70%;
-    padding-left: 3%;
+       height:850px;
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(4, 270px);
+    margin: 3%;
+    gap: 3%;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
 
 }
 
@@ -445,14 +448,15 @@ video {
     height: 270px;
     width: 270px;
     margin-bottom: 3%;
-    display: block;
 }
 
     /*** footer ***/
- .footer > div{
-    height: 800px;
-    display: block;
-   padding: 3%;
+ .footer{
+   height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5%;
 }
    
 }
