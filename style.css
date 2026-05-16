@@ -378,11 +378,7 @@ video {
 /**** seond-container ****/
 .features{
         margin-left: 3%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        row-gap: 3%;
-        column-gap: 3%;
+        display: block;
         padding-left: 3%;
 }
 
@@ -393,7 +389,7 @@ video {
 /**** third-container ****/
 
 .third-container{
-    margin-top: 3%;
+    margin-top: 6%;
     display: block;
     float: none;
 }
@@ -433,15 +429,9 @@ video {
     
 /*** sixth-container ***/
 .sixth-container {
-       height:850px;
-    display: grid;
-    grid-template-columns: repeat(2, 270px);
-    grid-template-rows: repeat(4, 270px);
+    height:70%;
+    display: block;
     margin: 3%;
-    gap: 3%;
-    margin-bottom: 1px;
-    padding-bottom: 1px;
-
 }
 
 .sixth-container > card {
