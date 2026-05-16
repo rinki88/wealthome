@@ -70,6 +70,7 @@ img{
 }
 
 .features{
+    margin-left: 9%;
     padding: 2%;
     display: grid;
     grid-template-columns: repeat(4, 300px);
@@ -305,6 +306,7 @@ img{
 }
 
     .features{
+        margin-left: 9%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -376,6 +378,7 @@ video {
 
 /**** seond-container ****/
 .features{
+       margin-left: 7%;
         display: block;
         margin-left: 14%;
          
@@ -416,13 +419,16 @@ video {
 
 /*** fifth-container ***/
     video{
-        margin-left: 5%;
+        margin-left: 7%;
         border-radius: 3%;
         height: 220px;
-        width: 300px;
+        width: 400px;
     }
     
-
+.btn-outline-primary{
+    height: 90px;
+    width: 90px;
+    
 /*** sixth-container ***/
 .sixth-container {
     display: block;
@@ -436,6 +442,13 @@ video {
     width: 270px;
     margin-bottom: 3%;
 }
-
-
+    
+ .footer{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5%;
+}
+   
 }
