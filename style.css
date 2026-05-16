@@ -357,7 +357,11 @@ video {
 /*** mobile responsive ****/
 
 @media (min-width: 400px) and (max-width:600px){
-
+ body{
+     margin:0;
+     height:100vh;
+     width:100%;}
+    
     /**** first-container ****/
     .first-container{
     height: 660px;
