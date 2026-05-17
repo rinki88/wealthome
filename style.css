@@ -367,7 +367,7 @@ video {
     float: none;
     height:250px;
     width: 300px;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 .first-box{
@@ -379,7 +379,7 @@ video {
 .features{
         margin-left: 3%;
         display: block;
-        padding-left: 3%;
+        padding-left: 5%;
 }
 
 .icon{
@@ -398,7 +398,7 @@ video {
     height: 150px;
     width: 250px;
     float: none;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 /**** fourth-container ****/
@@ -412,12 +412,12 @@ video {
     height: 150px;
     width: 250px;
     float: none;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 /*** fifth-container ***/
     video{
-        margin-left: 3%;
+        margin-left: 5%;
         border-radius: 3%;
         height: 220px;
         width: 400px;
