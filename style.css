@@ -20,7 +20,6 @@ a >.bi{
     padding-bottom:1px ;
      gap: 7px;
     background-color: blue;
-    height:40%;
     float: left;
     color: white;
 }
@@ -72,8 +71,8 @@ img{
     margin-left: 9%;
     padding: 2%;
     display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 1fr 1fr;
     row-gap: 7%;
     column-gap: 1%;
 }
@@ -133,6 +132,7 @@ margin-right: 5%;
 .fourth-container{
     padding: 11%;
     float: left;
+    margin-top: 5%;
 }
 
 .fourth-container > img{
@@ -205,8 +205,8 @@ video {
 .sixth-container{
     margin: 9px 10%;
     display: grid;
-    grid-template-columns: repeat(2, 270px);
-    grid-template-rows: repeat(3, 270px);
+    grid-template-columns: repeat(3, 270px);
+    grid-template-rows: repeat(2, 270px);
     gap: 3%;
 
 }
