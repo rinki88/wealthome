@@ -12,6 +12,7 @@ a >.bi{
     color: white;
 }
 
+@media(min-width:900px) and (max-width:1200px){
 /*** first-container ***/
 
  .first-container{
@@ -20,7 +21,6 @@ a >.bi{
      gap: 7px;
     background-color: blue;
     height:40%;
-    width: 100%;
     float: left;
     color: white;
 }
@@ -269,7 +269,7 @@ a {
     border: none;
     border-radius: 10px;
 }
-
+}
 
 
 /**** Tablet responsive *****/
@@ -432,9 +432,10 @@ video {
     height:70%;
     display: block;
     margin: 3%;
+    padding-left: 7%;
 }
 
-.sixth-container > card {
+.sixth-container > div {
     height: 270px;
     width: 270px;
     margin-bottom: 3%;
@@ -442,11 +443,12 @@ video {
 
     /*** footer ***/
  .footer{
-   height: 800px;
+   height: 610px;
     display: block;
+     padding-left: 3%;
 }
 
     .footer > div {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
    
 }
