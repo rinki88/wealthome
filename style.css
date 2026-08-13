@@ -12,7 +12,7 @@ a >.bi{
     color: white;
 }
 
-@media(min-width:900px) and (max-width:1200px){
+
 /*** first-container ***/
 
  .first-container{
@@ -269,7 +269,7 @@ a {
     border: none;
     border-radius: 10px;
 }
-}
+
 
 
 /**** Tablet responsive *****/
