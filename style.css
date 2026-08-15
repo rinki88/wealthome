@@ -71,7 +71,7 @@ img{
     margin-left: 9%;
     padding: 2%;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(2, 300px);
     grid-template-rows: 1fr 1fr;
     row-gap: 7%;
     column-gap: 1%;
@@ -205,8 +205,8 @@ video {
 .sixth-container{
     margin: 9px 10%;
     display: grid;
-    grid-template-columns: repeat(3, 270px);
-    grid-template-rows: repeat(2, 270px);
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(3, 270px);
     gap: 3%;
 
 }
@@ -284,7 +284,27 @@ a {
     .footer{
         width:1200px;
     }
+    /*** sixth-container ***/
+.sixth-container{
+    margin: 9px 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    grid-template-rows: repeat(2, 270px);
+    gap: 3%;
 }
+
+   /***** footer ***/
+.footer{
+   margin-top: 3%;
+    height: 210px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+} 
+}
+
 /**** Tablet responsive *****/
 
 @media (min-width:600px) and (max-width: 900px){
