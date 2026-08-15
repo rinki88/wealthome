@@ -12,7 +12,7 @@ a >.bi{
     color: white;
 }
 
-@media (min-width:900px) and (max-width:1200px){
+
 /*** first-container ***/
 
  .first-container{
@@ -22,7 +22,6 @@ a >.bi{
     background-color: blue;
     float: left;
     color: white;
-     width: 1200px;
 }
 
 img{
@@ -248,7 +247,6 @@ video {
     display: flex;
     padding: 3%;
     justify-content: space-between;
-    width:1200px;
 }
 
 .big{
@@ -266,8 +264,27 @@ a {
     border: none;
     border-radius: 10px;
 }
+
+
+@media (min-width:900px) and (max-width:1200px){
+ .first-container{
+     width: 1200px;
 }
 
+/**** second-container ****/
+    
+.features{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 7%;
+    column-gap: 1%;
+}
+
+    .footer{
+        width:1200px;
+    }
+}
 /**** Tablet responsive *****/
 
 @media (min-width:600px) and (max-width: 900px){
