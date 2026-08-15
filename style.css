@@ -22,6 +22,7 @@ a >.bi{
     background-color: blue;
     float: left;
     color: white;
+     width: 1200px;
 }
 
 img{
@@ -71,7 +72,7 @@ img{
     margin-left: 9%;
     padding: 2%;
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(4, 300px);
     grid-template-rows: 1fr 1fr;
     row-gap: 7%;
     column-gap: 1%;
@@ -247,6 +248,7 @@ video {
     display: flex;
     padding: 3%;
     justify-content: space-between;
+    width:1200px;
 }
 
 .big{
@@ -277,13 +279,14 @@ a {
     background-color: blue;
     padding: 15% 5%;
     padding-bottom: 1px;
+    width: 900px;
    }
 
     .first-box{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        padding: 1%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     padding: 1%;
      height: 150px;
      width: 65%;
    }
@@ -356,6 +359,7 @@ video {
     .first-container{
     height: 660px;
     padding-left: 3%;
+    width: 600px;
 }
 
 .first-container > img{
@@ -441,6 +445,7 @@ video {
    height: 610px;
     display: block;
      padding-left: 3%;
+     width:600px;
 }
 
     .footer > div {
