@@ -399,11 +399,11 @@ video {
 .first-container > img{
     float: right;
     height:400px;
-    width: 40%;
+    width: 50%;
 }
 
 .first-box{
-    width: 50%;
+    width: 40%;
     height: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
