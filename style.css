@@ -389,12 +389,11 @@ video {
 @media (min-width:900px){
     /**** first-container ****/
     .first-container{
-    padding: 15%;
+    padding: 15% 25%;
     padding-bottom: 1px;
     gap: 7px;
     height: 40%;
     float: left;
-    padding-right: 20%;
 }
 
 .first-container > img{
@@ -421,7 +420,7 @@ video {
 
 .btn-outline-primary{
     height:40px;
-    width: 140px;
+    width: 150px;
 }
 
 .features{
